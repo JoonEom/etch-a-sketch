@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.gamepad {
+    background-color: #c73838;
+    border-width: 20px;
+    border-color: black;
+    margin: 20px auto auto auto;
+    padding:20px;
+    width: 640px;
+    border-radius:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grid-container {
+    border: 10px;
+    border-color: black;
+    display: grid;
+    height: 500px;
+    width:500px;
+    background-color: #c73838;
+    margin-top: 20px;
+}
+
+.cell {
+    background-color: white;
+
+}
